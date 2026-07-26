@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://firsty.app/.well-known/
+host: https://firsty.app
+note: >-
+  Firsty is a consumer eSIM/mobile-data app with no public developer or API surface. All standard
+  well-known discovery documents return 404 (root requests 308-redirect to www.firsty.app, which
+  then 404s). No catalog/OIDC/security.txt/AI-plugin document is published. Recorded for audit and
+  re-run idempotency; no WellKnown scoring pointer wired because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null

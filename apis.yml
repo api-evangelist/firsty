@@ -1,22 +1,69 @@
 aid: firsty
 name: Firsty
-description: Firsty is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Firsty is an Amsterdam-based eSIM and mobile connectivity provider founded in 2023 that
+  positions internet access as a basic human right. Its consumer app delivers free, ad-supported global
+  data alongside affordable Classic (pay-per-GB) and Unlimited (daily/monthly) plans, plus international
+  calling, across 170+ countries with automatic connection to the best available network and no physical
+  SIM required. Firsty has surpassed one million users and lists partnerships with brands including Uber,
+  Grab, Mastercard, KBC and Belfius. Backed by Speedinvest, it is a consumer travel-connectivity app with
+  no public developer API or programmatic surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/firsty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: identity-enriched-no-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://firsty.app/press-kit
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- eSIM
+- Mobile
+- Connectivity
+- Telecommunications
+- Travel
+- Roaming
+- Data
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/firsty-domain-security.yml
+- type: Website
+  url: https://firsty.app
+- type: About
+  url: https://firsty.app/about-us
+- type: Pricing
+  url: https://firsty.app/plans/classic
+- type: Support
+  url: https://firsty.app/help
+- type: Blog
+  url: https://firsty.app/the-wanderer
+- type: TermsOfService
+  url: https://firsty.app/terms-conditions
+- type: PrivacyPolicy
+  url: https://firsty.app/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
